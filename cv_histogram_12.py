@@ -16,9 +16,11 @@ cv2.imshow("g",g)
 cv2.imshow("r",r)
 # cv2.imshow("img",img)
 
-plt.hist(b.ravel(),256,[0,256])
+plt.hist(b.ravel(),256,[0,256])   # .ravel() -> flatter the 2d array into 1d.
 plt.hist(g.ravel(),256,[0,256])
 plt.hist(r.ravel(),256,[0,256])
+# hist -(x,bins,range)   /range-> lower and upper range of values.
+# / bins-> number of bins ,
 
 # plt.hist(img.ravel(),256,[0,256])
 plt.show()
