@@ -1,4 +1,4 @@
-# Computer Vision Projects with OpenCV
+# Computer Vision  with OpenCV
 
 ## Overview
 
